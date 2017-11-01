@@ -1,0 +1,8 @@
+2017-10-30 14:30:32,256  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4324 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-30 14:30:32,334 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-30 14:30:32,334  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-30 14:30:48,526  INFO DemoApplication:57 ---- Started DemoApplication in 17.097 seconds (JVM running for 20.906)
+2017-10-30 15:31:46,702  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 7368 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-30 15:31:46,714 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-30 15:31:46,715  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-30 15:32:03,919  INFO DemoApplication:57 ---- Started DemoApplication in 18.433 seconds (JVM running for 26.991)

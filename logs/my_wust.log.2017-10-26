@@ -1,0 +1,358 @@
+2017-10-26 11:02:15,877  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 2208 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:02:15,878 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:02:15,879  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 11:02:40,554  INFO DemoApplication:57 ---- Started DemoApplication in 26.663 seconds (JVM running for 34.343)
+2017-10-26 11:10:52,989  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4848 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:10:52,990 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:10:52,990  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 11:11:11,638  INFO DemoApplication:57 ---- Started DemoApplication in 19.353 seconds (JVM running for 22.154)
+2017-10-26 11:12:12,811  INFO DemoApplicationTests:48 ---- Starting DemoApplicationTests on F7687967AA with PID 5556 (started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:12:12,811 DEBUG DemoApplicationTests:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:12:12,811  INFO DemoApplicationTests:597 ---- The following profiles are active: dev
+2017-10-26 11:12:35,880  INFO DemoApplicationTests:57 ---- Started DemoApplicationTests in 26.826 seconds (JVM running for 29.413)
+2017-10-26 11:15:06,934  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5444 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:15:06,937 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:15:06,938  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 11:15:17,987  INFO DemoApplication:57 ---- Started DemoApplication in 11.536 seconds (JVM running for 13.526)
+2017-10-26 11:17:15,219 DEBUG getUserAccountsNum:145 ---- ==>  Preparing: SELECT count(1) FROM user_account 
+2017-10-26 11:17:15,249 DEBUG getUserAccountsNum:145 ---- ==> Parameters: 
+2017-10-26 11:17:15,270 DEBUG getUserAccountsNum:145 ---- <==      Total: 1
+2017-10-26 11:17:27,488 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device FROM user_account 
+2017-10-26 11:17:27,489 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 11:17:27,490 DEBUG getAllUserAccounts:145 ---- <==      Total: 0
+2017-10-26 11:47:38,343  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 2688 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:47:38,401 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:47:38,402  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 11:47:52,033  INFO DemoApplication:57 ---- Started DemoApplication in 14.44 seconds (JVM running for 16.905)
+2017-10-26 11:50:17,606 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 11:50:17,639 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654797(String)
+2017-10-26 11:50:17,656 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 11:50:17,658 DEBUG putUserAccount:145 ---- ==>  Preparing: INSERT INTO user_account(tel, pass, nickname) VALUES(?, ?, ?) 
+2017-10-26 11:50:17,659 DEBUG putUserAccount:145 ---- ==> Parameters: 15671654797(String), 123456(String), wxl(String)
+2017-10-26 11:50:17,759 DEBUG putUserAccount:145 ---- <==    Updates: 1
+2017-10-26 11:50:43,684 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 11:50:43,685 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654789(String)
+2017-10-26 11:50:43,686 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 11:50:43,687 DEBUG putUserAccount:145 ---- ==>  Preparing: INSERT INTO user_account(tel, pass, nickname) VALUES(?, ?, ?) 
+2017-10-26 11:50:43,689 DEBUG putUserAccount:145 ---- ==> Parameters: 15671654789(String), 123(String), cs(String)
+2017-10-26 11:50:43,742 DEBUG putUserAccount:145 ---- <==    Updates: 1
+2017-10-26 11:51:34,843 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 11:51:34,843 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654797(String)
+2017-10-26 11:51:34,845 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 11:52:17,840 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device FROM user_account 
+2017-10-26 11:52:17,841 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 11:52:17,843 DEBUG getAllUserAccounts:145 ---- <==      Total: 2
+2017-10-26 11:57:51,022  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4876 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 11:57:51,025 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 11:57:51,025  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 11:58:01,809  INFO DemoApplication:57 ---- Started DemoApplication in 11.372 seconds (JVM running for 12.907)
+2017-10-26 11:58:26,287 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT * FROM user_account 
+2017-10-26 11:58:26,318 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 11:58:59,102 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 11:58:59,103 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654333(String)
+2017-10-26 11:58:59,116 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 11:58:59,119 DEBUG putUserAccount:145 ---- ==>  Preparing: INSERT INTO user_account(tel, pass, nickname) VALUES(?, ?, ?) 
+2017-10-26 11:58:59,134 DEBUG putUserAccount:145 ---- ==> Parameters: 15671654333(String), 123(String), cs(String)
+2017-10-26 11:58:59,184 DEBUG putUserAccount:145 ---- <==    Updates: 1
+2017-10-26 11:58:59,185 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT * FROM user_account WHERE tel =? 
+2017-10-26 11:58:59,186 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654333(String)
+2017-10-26 11:58:59,187 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 13:37:35,287  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 1752 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 13:37:35,292 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 13:37:35,293  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 13:37:49,655  INFO DemoApplication:57 ---- Started DemoApplication in 15.388 seconds (JVM running for 25.284)
+2017-10-26 13:38:02,007 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 13:38:02,047 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654333(String)
+2017-10-26 13:38:02,091 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 13:40:01,504 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, deflag FROM user_account 
+2017-10-26 13:40:01,505 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:41:03,968 DEBUG getUserAccountsNum:145 ---- ==>  Preparing: SELECT count(1) FROM user_account 
+2017-10-26 13:41:03,969 DEBUG getUserAccountsNum:145 ---- ==> Parameters: 
+2017-10-26 13:41:03,971 DEBUG getUserAccountsNum:145 ---- <==      Total: 1
+2017-10-26 13:44:42,597 DEBUG updateUserAccountByTel:145 ---- ==>  Preparing: UPDATE user_account SET pass=?, nickname=?, device=?, tel=? where tel=? 
+2017-10-26 13:45:22,980 DEBUG deleteUserAccountByTel:145 ---- ==>  Preparing: DELETE FROM user_account WHERE tel =? 
+2017-10-26 13:45:22,981 DEBUG deleteUserAccountByTel:145 ---- ==> Parameters: 15671654333(String)
+2017-10-26 13:45:23,246 DEBUG deleteUserAccountByTel:145 ---- <==    Updates: 1
+2017-10-26 13:46:34,705 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, deflag FROM user_account 
+2017-10-26 13:46:34,706 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:47:12,425 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, deflag FROM user_account 
+2017-10-26 13:47:12,426 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:47:30,017  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 184 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 13:47:30,020 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 13:47:30,020  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 13:47:43,325  INFO DemoApplication:57 ---- Started DemoApplication in 14.02 seconds (JVM running for 18.563)
+2017-10-26 13:48:23,143 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account 
+2017-10-26 13:48:23,213 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:49:27,779  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4580 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 13:49:27,784 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 13:49:27,784  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 13:49:40,803  INFO DemoApplication:57 ---- Started DemoApplication in 13.612 seconds (JVM running for 17.87)
+2017-10-26 13:49:46,296 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account 
+2017-10-26 13:49:46,328 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:49:46,355 DEBUG getAllUserAccounts:145 ---- <==      Total: 2
+2017-10-26 13:51:38,530  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5704 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 13:51:38,532 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 13:51:38,533  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 13:51:51,224  INFO DemoApplication:57 ---- Started DemoApplication in 13.095 seconds (JVM running for 14.312)
+2017-10-26 13:51:58,224 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT * FROM user_account WHERE tel =? 
+2017-10-26 13:51:58,265 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654797(String)
+2017-10-26 13:51:58,305 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 13:53:47,367 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account 
+2017-10-26 13:53:47,368 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:53:47,374 DEBUG getAllUserAccounts:145 ---- <==      Total: 2
+2017-10-26 13:58:33,669  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 440 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 13:58:33,671 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 13:58:33,672  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 13:58:44,859  INFO DemoApplication:57 ---- Started DemoApplication in 11.631 seconds (JVM running for 12.844)
+2017-10-26 13:58:51,947 DEBUG getAllUserAccounts:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account 
+2017-10-26 13:58:51,984 DEBUG getAllUserAccounts:145 ---- ==> Parameters: 
+2017-10-26 13:58:52,035 DEBUG getAllUserAccounts:145 ---- <==      Total: 2
+2017-10-26 13:59:19,715 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 13:59:19,716 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654797(String)
+2017-10-26 13:59:19,718 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 14:08:57,183  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 3100 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 14:08:57,189 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 14:08:57,189  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 14:09:10,488  INFO DemoApplication:57 ---- Started DemoApplication in 13.915 seconds (JVM running for 17.462)
+2017-10-26 14:09:16,173 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 14:09:16,224 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654797(String)
+2017-10-26 14:09:16,245 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 14:20:29,502  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5176 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 14:20:29,504 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 14:20:29,505  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 14:20:42,256  INFO DemoApplication:57 ---- Started DemoApplication in 13.479 seconds (JVM running for 17.032)
+2017-10-26 14:21:31,454 DEBUG updateUserAccountByTel:145 ---- ==>  Preparing: UPDATE user_account SET pass=?, nickname=?, device=? where tel=? 
+2017-10-26 16:12:51,232  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 2176 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:12:51,235 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:12:51,236  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:13:06,911  INFO DemoApplication:57 ---- Started DemoApplication in 17.569 seconds (JVM running for 26.308)
+2017-10-26 16:14:32,853 DEBUG updateUserAccountByTel:145 ---- ==>  Preparing: UPDATE user_account SET pass=?, nickname=?, device=? where tel=? 
+2017-10-26 16:14:32,888 DEBUG updateUserAccountByTel:145 ---- ==> Parameters: 123(String), cs(String), fbjksdnfljdsn(String), 15671654789(String)
+2017-10-26 16:14:33,164 DEBUG updateUserAccountByTel:145 ---- <==    Updates: 1
+2017-10-26 16:17:40,139  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5860 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:17:40,142 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:17:40,143  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:17:52,235  INFO DemoApplication:57 ---- Started DemoApplication in 12.692 seconds (JVM running for 14.337)
+2017-10-26 16:18:04,171 DEBUG updateUserAccountByTel:145 ---- ==>  Preparing: UPDATE user_account SET pass=?, nickname=?, device=? where tel=? 
+2017-10-26 16:18:04,204 DEBUG updateUserAccountByTel:145 ---- ==> Parameters: 123(String), cs(String), fbjksdnfljdsn(String), 15671654789(String)
+2017-10-26 16:18:04,226 DEBUG updateUserAccountByTel:145 ---- <==    Updates: 1
+2017-10-26 16:18:04,231 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 16:18:04,232 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654789(String)
+2017-10-26 16:18:04,266 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 16:27:09,640  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5828 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:27:09,644 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:27:09,645  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:27:21,378  INFO DemoApplication:57 ---- Started DemoApplication in 12.271 seconds (JVM running for 13.753)
+2017-10-26 16:30:54,209  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5216 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:30:54,213 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:30:54,214  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:31:06,113  INFO DemoApplication:57 ---- Started DemoApplication in 12.345 seconds (JVM running for 13.623)
+2017-10-26 16:41:22,205  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5536 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:41:22,208 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:41:22,209  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:41:35,452  INFO DemoApplication:57 ---- Started DemoApplication in 14.264 seconds (JVM running for 17.8)
+2017-10-26 16:41:49,028 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 16:41:49,068 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: {
+"oldTel": "15671654789",
+"newTel": "15671654444"
+  }(String)
+2017-10-26 16:41:49,163 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 16:41:49,165 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 16:43:12,075  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 3748 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:43:12,078 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:43:12,079  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:43:26,694  INFO DemoApplication:57 ---- Started DemoApplication in 15.066 seconds (JVM running for 19.307)
+2017-10-26 16:43:58,319 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 16:43:58,826 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: {
+"newTel": "15671654444"
+  }(String)
+2017-10-26 16:43:59,087 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 16:44:25,556 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 16:53:18,616  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 3780 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:53:18,618 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:53:18,619  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:53:30,157  INFO DemoApplication:57 ---- Started DemoApplication in 12.095 seconds (JVM running for 13.808)
+2017-10-26 16:54:21,945 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 16:54:21,974 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: {
+"newTel": "15671654444"
+}(String)
+2017-10-26 16:54:21,991 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 16:54:22,002 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 16:55:20,063  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4632 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 16:55:20,066 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 16:55:20,066  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 16:55:31,564  INFO DemoApplication:57 ---- Started DemoApplication in 12.151 seconds (JVM running for 13.7)
+2017-10-26 16:55:42,584 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 16:55:42,614 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 16:55:42,629 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 16:55:42,631 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:02:50,409  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 2288 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:02:50,411 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:02:50,412  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:03:03,353  INFO DemoApplication:57 ---- Started DemoApplication in 13.529 seconds (JVM running for 14.841)
+2017-10-26 17:03:19,340 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:03:19,383 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:03:19,416 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:03:19,419 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:03:19,419 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:03:19,491 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:03:19,494 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:03:19,495 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:03:19,501 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:05:50,625  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 4576 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:05:50,627 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:05:50,628  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:06:01,956  INFO DemoApplication:57 ---- Started DemoApplication in 11.754 seconds (JVM running for 13.099)
+2017-10-26 17:06:07,904 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:06:07,935 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:06:07,954 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:06:07,956 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:10:00,247  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5896 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:10:00,250 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:10:00,251  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:10:11,779  INFO DemoApplication:57 ---- Started DemoApplication in 11.954 seconds (JVM running for 13.134)
+2017-10-26 17:10:18,468 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:10:18,504 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:10:18,519 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:10:18,521 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:10:18,522 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:10:18,523 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:10:18,524 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:10:18,524 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:10:18,526 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:12:11,073  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 6084 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:12:11,076 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:12:11,076  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:12:23,081  INFO DemoApplication:57 ---- Started DemoApplication in 12.393 seconds (JVM running for 13.555)
+2017-10-26 17:12:35,212 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:12:35,252 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:12:35,276 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:12:35,278 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:12:35,279 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:12:35,281 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:12:35,282 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:12:35,283 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:12:35,284 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:12:54,548  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 6352 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:12:54,550 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:12:54,551  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:13:06,350  INFO DemoApplication:57 ---- Started DemoApplication in 12.603 seconds (JVM running for 14.162)
+2017-10-26 17:13:23,812 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:13:23,857 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:13:23,877 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:13:23,880 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:13:23,881 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:13:23,882 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:13:23,883 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:13:23,884 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:13:23,885 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:14:45,724  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 7276 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:14:45,726 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:14:45,727  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:14:57,249  INFO DemoApplication:57 ---- Started DemoApplication in 11.981 seconds (JVM running for 13.156)
+2017-10-26 17:15:02,473 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:15:02,518 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:15:02,539 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:15:02,541 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:19:20,153  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 6624 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:19:20,155 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:19:20,156  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:19:31,173  INFO DemoApplication:57 ---- Started DemoApplication in 11.535 seconds (JVM running for 12.755)
+2017-10-26 17:19:36,230 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:19:36,261 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:19:36,276 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:19:36,278 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:20:14,877  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 6792 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:20:14,905 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:20:14,905  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:20:26,113  INFO DemoApplication:57 ---- Started DemoApplication in 11.757 seconds (JVM running for 12.937)
+2017-10-26 17:20:29,181 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:20:29,213 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:20:29,229 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:20:29,230 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:20:29,231 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:20:29,232 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:20:29,233 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:20:29,234 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:20:29,235 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:21:31,566  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5736 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:21:31,576 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:21:31,577  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:21:43,142  INFO DemoApplication:57 ---- Started DemoApplication in 12.098 seconds (JVM running for 13.282)
+2017-10-26 17:21:46,835 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:21:46,878 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:21:46,897 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:21:46,899 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:22:13,253  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 7896 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:22:13,256 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:22:13,257  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:22:24,589  INFO DemoApplication:57 ---- Started DemoApplication in 11.831 seconds (JVM running for 12.923)
+2017-10-26 17:22:28,884 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:22:28,928 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:22:28,946 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:22:28,948 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:25:23,382  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5192 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:25:23,431 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:25:23,432  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:25:42,869  INFO DemoApplication:57 ---- Started DemoApplication in 20.134 seconds (JVM running for 24.22)
+2017-10-26 17:25:48,833 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:25:48,875 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:25:48,895 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:25:48,896 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:25:48,897 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:25:48,899 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:25:48,900 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:25:48,900 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:25:48,902 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:26:40,915  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 7360 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:26:40,918 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:26:40,919  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:26:52,437  INFO DemoApplication:57 ---- Started DemoApplication in 12.025 seconds (JVM running for 13.273)
+2017-10-26 17:26:55,918 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:26:55,952 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:26:55,969 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:26:55,971 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:26:55,972 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), oldTel=15671654789(String)
+2017-10-26 17:26:55,973 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:26:55,974 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:26:55,975 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:26:55,976 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
+2017-10-26 17:27:46,802 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:27:46,806 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:27:46,809 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:27:46,810 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:27:46,811 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: 15671654444(String), 15671654789(String)
+2017-10-26 17:27:46,979 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 1
+2017-10-26 17:27:46,981 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:27:46,983 DEBUG getUserAccountByTel:145 ---- ==> Parameters: 15671654444(String)
+2017-10-26 17:27:47,030 DEBUG getUserAccountByTel:145 ---- <==      Total: 1
+2017-10-26 17:30:03,398  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5796 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:30:03,401 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:30:03,402  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:30:14,522  INFO DemoApplication:57 ---- Started DemoApplication in 11.634 seconds (JVM running for 12.728)
+2017-10-26 17:31:38,969  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 5660 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:31:38,976 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:31:38,976  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:32:02,727  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 8008 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:32:02,730 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:32:02,730  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:32:13,839  INFO DemoApplication:57 ---- Started DemoApplication in 11.636 seconds (JVM running for 13.067)
+2017-10-26 17:33:02,086  INFO DemoApplication:48 ---- Starting DemoApplication on F7687967AA with PID 7504 (D:\IdeaProjects\springboot\target\classes started by F7687967 in D:\IdeaProjects\springboot)
+2017-10-26 17:33:02,088 DEBUG DemoApplication:51 ---- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-26 17:33:02,089  INFO DemoApplication:597 ---- The following profiles are active: dev
+2017-10-26 17:33:13,240  INFO DemoApplication:57 ---- Started DemoApplication in 11.704 seconds (JVM running for 13.111)
+2017-10-26 17:33:18,681 DEBUG getUserAccountsNumByTel:145 ---- ==>  Preparing: SELECT count(1) FROM user_account WHERE tel =? 
+2017-10-26 17:33:18,721 DEBUG getUserAccountsNumByTel:145 ---- ==> Parameters: {
+"newTel": "15671654444"
+}(String)
+2017-10-26 17:33:18,784 DEBUG getUserAccountsNumByTel:145 ---- <==      Total: 1
+2017-10-26 17:33:18,788 DEBUG updateUserAccountTelByTel:145 ---- ==>  Preparing: UPDATE user_account SET tel=? where tel=? 
+2017-10-26 17:33:18,790 DEBUG updateUserAccountTelByTel:145 ---- ==> Parameters: {
+"newTel": "15671654444"
+}(String), 15671654789(String)
+2017-10-26 17:33:18,791 DEBUG updateUserAccountTelByTel:145 ---- <==    Updates: 0
+2017-10-26 17:33:18,793 DEBUG getUserAccountByTel:145 ---- ==>  Preparing: SELECT id, tel, nickname, device, create_time, delflag FROM user_account WHERE tel =? 
+2017-10-26 17:33:18,794 DEBUG getUserAccountByTel:145 ---- ==> Parameters: {
+"newTel": "15671654444"
+}(String)
+2017-10-26 17:33:18,796 DEBUG getUserAccountByTel:145 ---- <==      Total: 0
