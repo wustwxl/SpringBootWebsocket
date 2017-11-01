@@ -17,7 +17,7 @@ import java.io.IOException;
 
 /**
  * Description:
- * 以get/post的方式发送数据到指定的http接口---利用httpclient.jar包---HTTP接口的调用
+ * 以get/post的方式发送数据到指定的http接口---HTTP接口的调用
  */
 
 public class HttpClientUtil {

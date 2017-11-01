@@ -2,11 +2,14 @@ package com.wust.dao;
 
 import com.wust.entity.UserAccount;
 import org.apache.ibatis.annotations.*;
-
-
 import java.util.List;
 
-
+/**
+  * @Author: WUST_WXL
+  * @Date: 上午 08:52 2017/11/1
+  * @ModifiedBy:
+  * @Description: Mapper接口,负责数据库操作。
+  */
 @Mapper
 public interface UserAccountMapper {
 
@@ -64,6 +67,8 @@ public interface UserAccountMapper {
 
     /**
      * 获取所有用户的帐号信息
+     * column为数据库中列名
+     * property为Entity包中实体类对应的属性名
      */
     @Results({
             @Result(property = "id", column = "id"),

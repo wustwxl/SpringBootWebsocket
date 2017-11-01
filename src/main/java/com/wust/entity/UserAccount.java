@@ -12,7 +12,7 @@ import java.util.Date;
  * @author : F7687967
  * Date: 2017/10/16
  * Time: 上午 08:09
- * Description:
+ * Description: UserAccount实体类
  */
 
 public class UserAccount implements Serializable {
@@ -32,6 +32,9 @@ public class UserAccount implements Serializable {
 
     private String device;
 
+    /**
+      * @Description: 使用注解,将数据库中的timestamp类型转换为date类型
+      */
     @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")
     @DateTimeFormat(pattern = "yy-MM-dd hh:mm:ss")
     private Date createTime;

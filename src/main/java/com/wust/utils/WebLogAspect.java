@@ -19,7 +19,7 @@ import java.util.logging.Logger;
  * @author: F7687967
  * @date: 2017/10/18
  * @time: 上午 09:28
- * @description:
+ * @description: 利用Aspect进行日志打印
  */
 @Aspect
 @Component

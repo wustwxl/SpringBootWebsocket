@@ -5,7 +5,7 @@ package com.wust.utils;
  * @author : F7687967
  * Date: 2017/10/16
  * Time: 下午 05:00
- * Description: 异常处理类
+ * Description: 统一异常处理类
  */
 
 public class MyException extends RuntimeException {

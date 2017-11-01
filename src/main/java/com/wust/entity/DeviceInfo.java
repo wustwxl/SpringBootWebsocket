@@ -6,6 +6,12 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.io.Serializable;
 import java.util.Date;
 
+/**
+ * @Author: WUST_WXL
+ * @Date: 上午 08:56 2017/11/1
+ * @ModifiedBy:
+ * @Description: DeviceInfo实体类 此Demo中未用到
+ */
 public class DeviceInfo implements Serializable {
 
     /**
